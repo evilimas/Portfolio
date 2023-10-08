@@ -27,16 +27,18 @@
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favorite tech</span> includes JavaScript, Scss + Firebase
+                My <span class="text-violet-400">favorite tech</span> includes: JavaScript, Sass, Tailwind + Firebase
             </p>
-            <a href="https://www.linkedin.com/in/front-end-developer-egidijus-vilimas/" target="_blank" class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" >
+            <a href="https://www.linkedin.com/in/front-end-developer-egidijus-vilimas/" 
+            target="_blank" 
+            class="blueShadow mx-auto lg:mr-auto lg:ml-0 text-base sm:text-lg md:text-xl poppins relative overflow-hidden px-6 py-3 group rounded-full bg-white text-slate-950 cursor-pointer" >
                 <div class="absolute top-0 right-full w-full h-full bg-violet-400 opacity-20 group-hover:translate-x-full z-0 duration-200">
                 </div>
                 <h4 class="relative z-9">Get in touch &rarr;</h4>
             </a>
         </div>
         <div class="relative shadow-2xl grid place-items-center">
-            <img src={"images/profile.png"} alt="Profile image" class="object-cover z-[2] max-h-[70vh] "/>
+            <img src={"images/profile5.png"} alt="Profile image" class="object-cover z-[2] max-h-[70vh] "/>
         </div>
     </section>
 
