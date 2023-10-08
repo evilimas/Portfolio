@@ -3,19 +3,19 @@
 
     let steps = [
         {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/'},
-        {name: 'Google Keep', icon: "fa-brands fa-google" ,href:''},
+        {name: 'Google Keep', icon: "fa-brands fa-google" ,href:'https://evilimas.github.io/Google-Keep/'},
         {name: 'Shoping Cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
-        {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/'},
-        {name: 'Google Keep', icon: "fa-brands fa-google" ,href:''},
-        {name: 'Shoping Cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
+        {name: 'Cat Meme Picker', icon: "fa-solid fa-cat" ,href:'https://charming-semolina-53934b.netlify.app/'},
+        {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
+        {name: 'Twitmba', icon: "fa-brands fa-twitter" ,href:'https://evilimas.github.io/Twitter-clone/'},
     ]
 
     let benefits = [
         {name: 'A self taught developer', description: 'I started with a short beginners bootcamp and then i taught myself to code using free and paid online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks and much much more.'},
 
-        {name: 'an excellent communicator and a team player', description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team"},
+        {name: 'An excellent communicator and a team player', description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team"},
 
-        {name: 'Passion, Hard Work, and Adaptability', description: " I consider myself passionate, hardworking, and highly motivated. I think i have a good attention to detail. I'm patient and flexible, always ready to adapt to new challenges. I never shy away from difficulties. I have an insatiable thirst for learning and continually improving my knowledge and skills."},
+        {name: 'Passionate, hardworking and adaptable', description: " I consider myself passionate, hardworking, and highly motivated. I think i have a good attention to detail. I'm patient and flexible, always ready to adapt to new challenges. I never shy away from difficulties. I have an insatiable thirst for learning and continually improving my knowledge and skills."},
     ]
 </script>
 
@@ -66,19 +66,19 @@
 
             </Step>
             <Step step={steps[2]}>
-                <p>Webpage project is created with <strong class="text-violet-400">HTML, CSS, JavaScript, Firestore </strong> application that allows add and remove items from database</p>
+                <p>Shoping Cart app project is created with <strong class="text-violet-400">HTML, CSS, JavaScript, Firestore </strong> application that allows add and remove items from database</p>
 
             </Step>
-            <Step step={steps[0]}>
-                <p>Webpage project is created with <strong class="text-violet-400">HTML, SCSS-SASS, JavaScript, Swiper.js </strong> fictional Cheshire county Hygiene service Website</p>
+            <Step step={steps[3]}>
+                <p>Cat Meme Picker project is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> funny cat meme picker ,pick your meme and have fun</p>
 
             </Step>
-            <Step step={steps[1]}>
-                <p>Google Keeps clone is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> Google keeps clone web aplication for your notes</p>
+            <Step step={steps[4]}>
+                <p>FoodieHub service site is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> fictional food delivery that will make you eat healthy again</p>
 
             </Step>
-            <Step step={steps[2]}>
-                <p>Webpage project is created with <strong class="text-violet-400">HTML, CSS, JavaScript, Firestore </strong> application that allows add and remove items from database</p>
+            <Step step={steps[5]}>
+                <p>Twitter clone project is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> twitter clone </p>
 
             </Step>
         </div>
