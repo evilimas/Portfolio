@@ -80,7 +80,7 @@
 
             </Step>
             <Step step={steps[5]}>
-                <p>Twitter clone project is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> twitter clone </p>
+                <p>Twimba project is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> simple twitter clone </p>
 
             </Step>
         </div>
