@@ -13,7 +13,7 @@
     let benefits = [
         {name: 'A self taught developer', description: 'I started with a short beginners bootcamp and then i taught myself to code using free and paid online resources and absolutely fell in love with the creativity and problem solving that is involved in developing and engineering innovative new online experiences. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks and much much more.'},
 
-        {name: 'An excellent communicator and a team player', description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team"},
+        {name: 'An excellent communicator and a team player', description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team."},
 
         {name: 'Passionate, hardworking and adaptable', description: " I consider myself passionate, hardworking, and highly motivated. I think i have a good attention to detail. I'm patient and flexible, always ready to adapt to new challenges. I never shy away from difficulties. I have an insatiable thirst for learning and continually improving my knowledge and skills."},
     ]
@@ -27,7 +27,7 @@
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favorite tech</span> includes: JavaScript, Sass, Tailwind + Firebase
+                My <span class="text-violet-400">favorite tech</span> includes: JavaScript, React, Sass, Tailwind & Firebase
             </p>
             <a href="https://www.linkedin.com/in/front-end-developer-egidijus-vilimas/" 
             target="_blank" 
