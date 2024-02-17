@@ -3,7 +3,7 @@
 
     let steps = [
         {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/'},
-        {name: 'Meme Generator', icon: "fa-solid fa-x-ray" ,href:'https://memegen-react.netlify.app/'},
+        {name: 'Travel List', icon: "fa-solid fa-suitcase" ,href:'https://traveling-list.netlify.app/'},
         {name: 'Shoping Cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
         {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/'},
         {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
@@ -64,7 +64,7 @@
 
             </Step>
             <Step step={steps[1]}>
-                <p>Meme Generator is created with <strong class="text-violet-400">HTML, CSS, REACT</strong> meme generator application that allows users to create memes by adding custom text to random meme images. The application fetches meme images from the Imgflip API and provides a user-friendly interface for meme customization.</p>
+                <p>Travel Packing List is created with <strong class="text-violet-400">REACT</strong> The Far Away Packing List App helps you organize your packing list for your upcoming trips. Whether you're planning a vacation or a business trip, this app keeps track of the items you need to pack.</p>
 
             </Step>
             <Step step={steps[2]}>
