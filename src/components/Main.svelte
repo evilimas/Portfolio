@@ -4,7 +4,8 @@
     let steps = [
         {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/'},
         {name: 'Travel List', icon: "fa-solid fa-suitcase" ,href:'https://traveling-list.netlify.app/'},
-        {name: 'Shoping Cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
+        {name: 'Live Chat app', icon: "fa-solid fa-comment" ,href:'https://app-live-chat.netlify.app/'},
+        // {name: 'Shopping cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
         {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/'},
         {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
         {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
@@ -68,7 +69,7 @@
 
             </Step>
             <Step step={steps[2]}>
-                <p>Shoping Cart app project is created with <strong class="text-violet-400">HTML, CSS, JavaScript, Firestore </strong> A simple shopping cart application that allows users to add items to their cart and displays them in real-time. This application uses Firebase Realtime Database to store and retrieve the shopping cart items</p>
+                <p>The project is created with <strong class="text-violet-400">Vue and Firestore </strong>This project is a simple real-time chat application. It enables users to communicate in real-time with each other, while also providing authentication and data storage functionalities through Firebase services.</p>
 
             </Step>
             <Step step={steps[3]}>
