@@ -1,4 +1,4 @@
-<footer class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center">
+<footer class="py-20 sm:py-32 bg-black border-t border-solid border-violet-950 flex flex-col gap-4 sm:gap-8 justify-center items-center relative">
     <p class="px-4 py-2 bg-white text-slate-950 font-medium">
         Connect with me &darr;
     </p>
@@ -39,5 +39,11 @@
         
     </div>
     
-
+    
+    
+    <div class="absolute left-0 top-50%">
+            <script src="https://static.elfsight.com/platform/platform.js" async></script>
+        <div class="elfsight-app-07fc8b57-bfb8-430d-a9a5-f888c987bec1" data-elfsight-app-lazy></div>
+    
+    </div>
 </footer>
