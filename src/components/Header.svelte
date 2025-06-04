@@ -1,7 +1,9 @@
-<script>
+<script lang="ts">
+    import type { Tabs } from '../Types/types';
     export let y;
 
-    let tabs = [
+
+    let tabs : Tabs[] = [
         {name: 'Projects', link: '#projects'},
         {name: 'About me', link: '#about'},
         // {name: 'Blog', '#blog'}

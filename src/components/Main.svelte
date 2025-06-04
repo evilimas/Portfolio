@@ -1,7 +1,8 @@
-<script>
-    import Step from "./Step.svelte"
+<script lang="ts">
+    import Step from './Step.svelte';
+    import type { Steps, Benefits } from "../Types/types"
 
-    let steps = [
+    let steps : Steps[] = [
         {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/'},
         {name: 'Travel List', icon: "fa-solid fa-suitcase" ,href:'https://traveling-list.netlify.app/'},
         {name: 'Live Chat app', icon: "fa-solid fa-comment" ,href:'https://app-live-chat.netlify.app/'},
@@ -11,7 +12,7 @@
         {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
     ]
 
-    let benefits = [
+    let benefits: Benefits[] = [
         {name: 'A self taught developer', description: 'I started with a short beginners bootcamp and then i taught myself to code using free and paid online resources and absolutely fell in love with the creativity and problem solving. Starting of with JavaScript, HTML & CSS and evolving my knowledge base to include JavaScript frameworks, Typescript a little of C# and much much more.'},
 
         {name: 'An excellent communicator and a team player', description: "Communication is key and it's a paramount value of mine. I believe in transparency and constructive communication above all else. This helps me develop deep relationships and ensures my effectiveness and productivity in any work space with any team."},
