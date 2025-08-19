@@ -30,7 +30,7 @@
                 <span class="poppins text-violet-400">Developer</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favorite tech</span> includes: TypeScript, Vue, React, Sass, Tailwind and Svelte
+                My <span class="text-violet-400">favorite tech</span> includes: TypeScript, Vue, React, Sass, Tailwind and Firebase
             </p>
             <a href="https://www.linkedin.com/in/front-end-developer-egidijus-vilimas/" 
             target="_blank" 
