@@ -11,6 +11,7 @@
         {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/'},
         {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
         {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
+        {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
     ]
 
     let benefits: Benefits[] = [
@@ -26,11 +27,14 @@
     <section id="introPage" class="grid grid-col-1 lg:grid-cols-2 gap-10 py-8 sm:py-14">
         <div class="flex flex-col lg:justify-center text-center lg:text-left gap-6 md:gap-8 lg:gap-10">
             <h2 class="font-semibold text-4xl sm:text-5xl md:text-6xl">
-                Hi! I'm <span class="poppins text-violet-400">Egidijus</span> Vilimas<br> Front-End 
+                Hi! I'm <span class="poppins text-violet-400">Egidijus</span> Vilimas<br> Full-Stack 
                 <span class="poppins text-violet-400">Developer</span>
+                <span class="poppins text-3xl sm:text-4xl md:text-5xl">with a focus on Frontend</span>
+                <span class="block text-base sm:text-lg md:text-xl mt-4 text-slate-500">Based in Kristiansand, Norway</span>
             </h2>
             <p class="text-base sm:text-lg md:text-xl">
-                My <span class="text-violet-400">favorite tech</span> includes: TypeScript, Vue, React, Sass, Tailwind and Firebase
+                My <span class="text-violet-400">favorite tech</span> includes: TypeScript, Vue, React, SASS, Tailwind, Express.JS, React Native and Firebase
+
             </p>
             <a href="https://www.linkedin.com/in/front-end-developer-egidijus-vilimas/" 
             target="_blank" 
