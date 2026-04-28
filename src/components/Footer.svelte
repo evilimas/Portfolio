@@ -19,7 +19,7 @@
                 </span></sup>
             </a>
         </p>
-        <a  
+        <!-- <a  
         href="English_CV.pdf"
         target="_blank"
         class="blueShadow relative overflow-hidden px-5 group rounded-full bg-white text-slate-950">
@@ -36,7 +36,7 @@
             
         
         <h4 class="relative z-9">Norsk CV</h4>
-     </a>
+     </a> -->
         
     </div>
     
