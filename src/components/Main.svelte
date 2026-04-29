@@ -11,7 +11,7 @@
         {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/'},
         {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
         // {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
-        {name: 'Norgestiss', icon: "fa-solid fa-dice" ,href:'', github:'https://github.com/evilimas/norgestiss'},
+        {name: 'Norgestiss', icon: "fa-solid fa-toilet" ,href:'', github:'https://github.com/evilimas/norgestiss'},
     ]
 
     let benefits: Benefits[] = [
