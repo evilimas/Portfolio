@@ -10,8 +10,8 @@
         // {name: 'Shopping cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
         {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/'},
         {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
-        {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
-        {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
+        // {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
+        {name: 'Norgestiss', icon: "fa-solid fa-dice" ,href:'', github:'https://github.com/evilimas/norgestiss'},
     ]
 
     let benefits: Benefits[] = [
@@ -86,8 +86,12 @@
                 <p>FoodieHub service site is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> a fictional AI-powered food subscription service. This website is designed to showcase the concept of a smart food subscription tailored to individual tastes and nutritional needs.</p>
 
             </Step>
-            <Step step={steps[5]}>
+            <!-- <Step step={steps[5]}>
                 <p>Tenzies Game Project is created with <strong class="text-violet-400">REACT</strong> simple dice game where the goal is to roll until all dice show the same value. You can freeze individual dice between rolls to strategize and achieve the desired outcome. </p>
+
+            </Step> -->
+            <Step step={steps[5]}>
+                <p>Norgestiss Project is created with <strong class="text-violet-400">React Native</strong> A mobile app (React Native) for finding public toilets across Norway. </p>
 
             </Step>
         </div>
