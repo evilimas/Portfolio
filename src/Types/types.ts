@@ -2,6 +2,7 @@ interface Steps {
   name: string;
   icon: string;
   href: string;
+  github?: string;
 }
 
 interface Benefits {
