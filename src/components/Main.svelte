@@ -3,15 +3,16 @@
     import type { Steps, Benefits } from "../Types/types"
 
     let steps : Steps[] = [
-        {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/'},
-        {name: 'Travel List', icon: "fa-solid fa-suitcase" ,href:'https://traveling-list.netlify.app/'},
-        // {name: 'Live Chat app', icon: "fa-solid fa-comment" ,href:'https://app-live-chat.netlify.app/'},
+        {name: 'Pet Store', icon: "fa-solid fa-cat" ,href:'', github:'https://github.com/evilimas/Netbutik'},
         {name: 'Yatzy Game', icon: "fa-solid fa-dice" ,href:'https://game-yatzy.netlify.app/'},
-        // {name: 'Shopping cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
-        {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/'},
-        {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
-        // {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
         {name: 'Norgestiss', icon: "fa-solid fa-toilet" ,href:'', github:'https://github.com/evilimas/norgestiss'},
+        // {name: 'Live Chat app', icon: "fa-solid fa-comment" ,href:'https://app-live-chat.netlify.app/'},
+        {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/'},
+        {name: 'Travel List', icon: "fa-solid fa-suitcase" ,href:'https://traveling-list.netlify.app/'},
+        {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/'},
+        // {name: 'Shopping cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
+        // {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
+        // {name: 'Tenzie', icon: "fa-solid fa-dice" ,href:'https://tenzies-gameproj.netlify.app/'},
     ]
 
     let benefits: Benefits[] = [
@@ -67,33 +68,37 @@
         </a> -->
         <div class="grid grid-col-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>Cheshire County Hygiene Services project is created with <strong class="text-violet-400">HTML, SCSS-SASS, JavaScript, Swiper.js </strong> a fictional company that offers a range of hygiene solutions. It showcases various features, including a explaination of services, customer reviews, pricing options, and a contact forms.</p>
+                <p>Netbutik - Pet Store Application is created with <strong class="text-violet-400">React, TypeScript, Express.js, and SQLite </strong>  Features include pet browsing, shopping cart functionality, user authentication.</p>
 
             </Step>
             <Step step={steps[1]}>
-                <p>Travel Packing List is created with <strong class="text-violet-400">REACT</strong> The Far Away Packing List App helps you organize your packing list for your upcoming trips. Whether you're planning a vacation or a business trip, this app keeps track of the items you need to pack.</p>
+                <p>The project is created with <strong class="text-violet-400">Vue and Firestore </strong>This project is a simple Yatzy game application. It enables users to communicate in real-time with each other, while also providing authentication and data storage functionalities through Firebase services.</p>
 
             </Step>
             <Step step={steps[2]}>
-                <p>The project is created with <strong class="text-violet-400">Vue and Firestore </strong>This project is a simple Yatzy game application. It enables users to communicate in real-time with each other, while also providing authentication and data storage functionalities through Firebase services.</p>
+                <p>Norgestiss Project is created with <strong class="text-violet-400">React Native</strong> A mobile app (React Native) for finding public toilets across Norway. </p>
 
             </Step>
             <Step step={steps[3]}>
                 <p>Movie Watchlist Project is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> simple web application that allows users to search for movies using the(OMDb) API. The user can add movies to their watchlist, and is stored locally.</p>
-
+                
             </Step>
             <Step step={steps[4]}>
+                <p>Travel Packing List is created with <strong class="text-violet-400">REACT</strong> The Far Away Packing List App helps you organize your packing list for your upcoming trips. Whether you're planning a vacation or a business trip, this app keeps track of the items you need to pack.</p>
+                
+            </Step>
+            <Step step={steps[5]}>
+                <p>Cheshire County Hygiene Services project is created with <strong class="text-violet-400">HTML, SCSS-SASS, JavaScript, Swiper.js </strong> a fictional company that offers a range of hygiene solutions. It showcases various features, including a explaination of services, customer reviews, pricing options, and a contact forms.</p>
+                
+            </Step>
+            <!-- <Step step={steps[4]}>
                 <p>FoodieHub service site is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> a fictional AI-powered food subscription service. This website is designed to showcase the concept of a smart food subscription tailored to individual tastes and nutritional needs.</p>
 
-            </Step>
+            </Step> -->
             <!-- <Step step={steps[5]}>
                 <p>Tenzies Game Project is created with <strong class="text-violet-400">REACT</strong> simple dice game where the goal is to roll until all dice show the same value. You can freeze individual dice between rolls to strategize and achieve the desired outcome. </p>
 
             </Step> -->
-            <Step step={steps[5]}>
-                <p>Norgestiss Project is created with <strong class="text-violet-400">React Native</strong> A mobile app (React Native) for finding public toilets across Norway. </p>
-
-            </Step>
         </div>
     </section>
     <section id="about" class="py-20 pt-10 lg:pt-16 lg:py-32 flex flex-col gap-16 sm:gap-20 md:gap-24 relative">
