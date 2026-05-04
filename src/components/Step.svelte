@@ -16,13 +16,21 @@
     <h3 class="font-medium text-xl sm:text-2xl md:text-3xl">{step.name}</h3>
     <slot/>
     <div class="flex-1 flex justify-between gap-4 items-center">
-        <div 
-            class="mt-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:h-full after:bg-white after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
+        {#if step.href}
+            <a 
+                href={step.href}
+                target="_blank"
+                class="mt-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:h-full after:bg-white after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
                 <p class="relative z-4">Go to &rarr;</p>
-        </div>
-        <div 
-            class="mt-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:h-full after:bg-white after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
+            </a>
+        {/if}
+        {#if step.github}
+            <a 
+                href={step.github}
+                target="_blank"
+                class="mt-auto cursor-pointer hover:text-slate-950 duration-200 relative after:absolute after:top-0 after:right-full after:w-full after:h-full after:bg-white after:duration-200 hover:after:translate-x-full after:z-[-1] overflow-hidden">
                 <p class="relative z-4">Github &rarr;</p>
-        </div>
+            </a>
+        {/if}
     </div>
 </a>
