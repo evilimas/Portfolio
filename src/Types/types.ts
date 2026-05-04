@@ -1,7 +1,7 @@
 interface Steps {
   name: string;
   icon: string;
-  href: string;
+  href?: string;
   github?: string;
 }
 
