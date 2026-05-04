@@ -4,9 +4,9 @@
 
     let steps : Steps[] = [
         {name: 'Pet Store', icon: "fa-solid fa-cat" ,href:'', github:'https://github.com/evilimas/Netbutik'},
-        {name: 'Yatzy Game', icon: "fa-solid fa-dice" ,href:'https://game-yatzy.netlify.app/'},
+        {name: 'Yatzy Game', icon: "fa-solid fa-dice" ,href:'https://game-yatzy.netlify.app/', github:'https://github.com/evilimas/Yatzy-Game'},
         {name: 'Norgestiss', icon: "fa-solid fa-toilet" ,href:'', github:'https://github.com/evilimas/norgestiss'},
-        {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/'},
+        {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/', github:'https://github.com/evilimas/Movie-Watchlist'},
         {name: 'Travel List', icon: "fa-solid fa-suitcase" ,href:'https://traveling-list.netlify.app/'},
         {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/'},
         // {name: 'Live Chat app', icon: "fa-solid fa-comment" ,href:'https://app-live-chat.netlify.app/'},
@@ -68,7 +68,7 @@
         </a> -->
         <div class="grid grid-col-1 lg:grid-cols-3 gap-12 lg:gap-10">
             <Step step={steps[0]}>
-                <p>Netbutik - Pet Store Application is created with <strong class="text-violet-400">React, TypeScript, Express.js, and SQLite </strong>  Features include pet browsing, shopping cart functionality, user authentication.</p>
+                <p>Netbutik - Pet Store Application is created with <strong class="text-violet-400">React, TypeScript, Express.js, and SQLite </strong>  Features include pet browsing, shopping cart functionality and user authentication.</p>
 
             </Step>
             <Step step={steps[1]}>
