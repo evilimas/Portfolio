@@ -7,6 +7,7 @@
         {name: 'Projects', link: '#projects'},
         {name: 'About me', link: '#about'},
         // {name: 'Blog', '#blog'}
+        
     ]
 </script>
 
