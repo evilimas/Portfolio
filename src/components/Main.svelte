@@ -6,7 +6,8 @@
         {name: 'Pet Store', icon: "fa-solid fa-cat" ,href:'', github:'https://github.com/evilimas/Netbutik'},
         {name: 'Yatzy Game', icon: "fa-solid fa-dice" ,href:'https://game-yatzy.netlify.app/', github:'https://github.com/evilimas/Yatzy-Game'},
         {name: 'Norgestiss', icon: "fa-solid fa-toilet" ,href:'', github:'https://github.com/evilimas/norgestiss'},
-        {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/', github:'https://github.com/evilimas/Movie-Watchlist'},
+        // {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/', github:'https://github.com/evilimas/Movie-Watchlist'},
+        {name: 'Collexion', icon: "fa-solid fa-gamepad" ,href:'', github:'https://github.com/evilimas/Collexion'},
         {name: 'Travel List', icon: "fa-solid fa-suitcase" ,href:'https://traveling-list.netlify.app/', github:'https://github.com/evilimas/Travel-list'},
         {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/', github:'https://github.com/evilimas/Homepage'},
         // {name: 'Live Chat app', icon: "fa-solid fa-comment" ,href:'https://app-live-chat.netlify.app/'},
@@ -80,7 +81,7 @@
 
             </Step>
             <Step step={steps[3]}>
-                <p>Movie Watchlist Project is created with <strong class="text-violet-400">HTML, CSS, JavaScript </strong> simple web application that allows users to search for movies using the(OMDb) API. The user can add movies to their watchlist, and is stored locally.</p>
+                <p>Collextion Project is created with <strong class="text-violet-400">React Native </strong> Collexion is a gaming collection app built with Expo and React Native. It helps you track consoles, handhelds, and controllers with details like condition, color, storage, and notes.</p>
                 
             </Step>
             <Step step={steps[4]}>
