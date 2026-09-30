@@ -3,13 +3,13 @@
     import type { Steps, Benefits } from "../Types/types"
 
     let steps : Steps[] = [
-        {name: 'Pet Store', icon: "fa-solid fa-cat" ,href:'', github:'https://github.com/evilimas/Netbutik'},
-        {name: 'Yatzy Game', icon: "fa-solid fa-dice" ,href:'https://game-yatzy.netlify.app/', github:'https://github.com/evilimas/Yatzy-Game'},
-        {name: 'Norgestiss', icon: "fa-solid fa-toilet" ,href:'', github:'https://github.com/evilimas/norgestiss'},
-        // {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/', github:'https://github.com/evilimas/Movie-Watchlist'},
         {name: 'Collexion', icon: "fa-solid fa-gamepad" ,href:'', github:'https://github.com/evilimas/Collexion'},
+        {name: 'Yatzy Game', icon: "fa-solid fa-dice" ,href:'https://game-yatzy.netlify.app/', github:'https://github.com/evilimas/Yatzy-Game'},
+        {name: 'Pet Store', icon: "fa-solid fa-cat" ,href:'', github:'https://github.com/evilimas/Netbutik'},
+        {name: 'Norgestiss', icon: "fa-solid fa-toilet" ,href:'', github:'https://github.com/evilimas/norgestiss'},
         {name: 'Travel List', icon: "fa-solid fa-suitcase" ,href:'https://traveling-list.netlify.app/', github:'https://github.com/evilimas/Travel-list'},
         {name: 'Webpage', icon: "fa-solid fa-globe" ,href:'https://evilimas.github.io/Homepage/', github:'https://github.com/evilimas/Homepage'},
+        // {name: 'Movie Watchlist', icon: "fa-solid fa-film" ,href:'https://movie-watchslist.netlify.app/', github:'https://github.com/evilimas/Movie-Watchlist'},
         // {name: 'Live Chat app', icon: "fa-solid fa-comment" ,href:'https://app-live-chat.netlify.app/'},
         // {name: 'Shopping cart app', icon: "fa-solid fa-cart-shopping" ,href:'https://pirkiniu-krepselis.netlify.app/'},
         // {name: 'FoodieHub', icon: "fa-solid fa-utensils" ,href:'https://foodiehub2.netlify.app/'},
